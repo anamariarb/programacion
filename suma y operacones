@@ -1,0 +1,33 @@
+//SUMA Y OPERACIONES 
+// Autor: Ana Maria Rivero
+// Fecha: 03/09/2015
+
+#include <iostream> // libreria de entrada y salida cin, cout
+#include "conio.h"  // libreria para manejar la entrada y getch()
+
+//declaracion de monitor y teclado 
+using namespace std;
+int main(){
+int a; //variable
+int b; //variable
+int c; //variable
+int d; //variable
+int e; //variable
+float f; //variable Ccon decimales 
+int g; //variable
+cout <<"ingrese el primer numero"<< endl; //mensaje al usuario -instruccion 
+cin >> a;                                 //ingresar valores  
+cout <<"ingrese el segundo numer"<< endl; //mensaje al usuario- instruccion
+cin >> b;                                 //ingresar valores
+c = a+b; // operacion 
+d = a-b; //operacion  
+e = a*b;// operacion 
+f = a/b; // operacion 
+g = a%b; //operacion- devuelve el residuo de dos numeros 
+cout <<"la suma; " << c << endl; // resultado de la operacion 
+cout <<"la resta es; " << d << endl; //resultado de la operacion
+cout <<"la multiplicaciobn es; " << e << endl; // resultado de la operacion
+cout <<"la division es; " << f << endl; // resultado de la operacion
+cout <<"el rsiduo es; " << g << endl; // resultado de la operacion
+getch(); // pausear la pantalla 
+return 0;
