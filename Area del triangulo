@@ -3,9 +3,10 @@
 // Fecha: 03/09/2015
 
 #include "stdafx.h" //libreria
-#include <iostream> //lilbreria
-#include "conio.h" //libreria
+#include <iostream> //lilbreria de entrada y salida cout,cin
+#include "conio.h" //libreria para manejar la entrada y getch()
 
+//declaracion de monitor y teclado 
 using namespace std;
 
 
@@ -19,6 +20,6 @@ void main ()
 	cin >>altura;             //ingresar valores
 	area= (base*altura)/ 2;  // resultado
 	cout <<"el resultado es: "<<area<<endl; //mesanje al usuario
-	getch(); 
+	getch();  //detiene pantalla
 
 }
