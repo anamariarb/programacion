@@ -2,7 +2,7 @@
 // Autor: Ana Maria Rivero
 // Fecha: 03/09/2015
 
-#include "stdafx.h" //libreria
+#include "stdafx.h" //libreria C++
 #include <iostream> //lilbreria de entrada y salida cout,cin
 #include "conio.h" //libreria para manejar la entrada y getch()
 
