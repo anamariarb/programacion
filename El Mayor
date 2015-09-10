@@ -1,0 +1,33 @@
+// El mayor de los tres numeros.cpp : Defines the entry point for the console application.
+//Autor: Ana Maria Rivero
+//Fecha: 10/09/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+
+void main ()
+{
+	int A,B,C;
+	cout << "Ingrese el valor de A";
+	cin >> A;
+	cout << "Ingrese el valor de B" ;
+	cin >> B;
+    cout << "Ingrese el valor de C" ;
+    cin >> C;
+	if (A>B)
+		if (A>C)
+			cout << "El Mayor es:" << A << endl;
+		else 
+			cout << "El Mayor es:" << C << endl;
+	else 
+		if (B>C)
+			cout << "El Mayor es:" << B << endl;
+		else 
+			cout << "El Mayor es:" << C << endl;
+	getch ();
+}
