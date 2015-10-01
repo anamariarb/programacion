@@ -1,0 +1,32 @@
+// IVA.cpp : Defines the entry point for the console application.
+//Autor: Ana Maria Rivero
+//Fecha: 01/10/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std; 
+
+int main()
+{
+	float iva,sueldo,suma=0,sueldomin;
+	int i,n;
+	cout << "ingrese numero de empleados" << endl;
+	cin >> n;
+	sueldomin=2*1656;
+
+    for (i=1;i<=n;i++)
+	{
+		cout << "ingrese el sueldo, empleado:" <<i<<":";
+		cin >> sueldo;
+		iva = 0;
+		if (sueldo>=2*1656)
+			iva = sueldo*0.13;
+		cout <<" el impuesto a pagar del impleado: " <<i<<":"<<iva<<endl;
+		suma=suma+iva;
+	
+	}
+	cout<<"el impuesto a pagar es:"<<suma<<endl;
+	getch();
+}
